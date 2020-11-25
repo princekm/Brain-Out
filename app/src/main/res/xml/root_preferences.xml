@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/playerInfo">
+
+        <EditTextPreference
+            app:key="name"
+            app:title="@string/nameTitle"
+            app:useSimpleSummaryProvider="true" />
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/settingsTitle">
+
+        <SwitchPreferenceCompat
+            app:key="vibration"
+            app:title="@string/vibrationDescOn" />
+        <SwitchPreferenceCompat
+            app:key="sound"
+            app:title="@string/soundDescOn" />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

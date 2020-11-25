@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="2dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/infoView"
+            android:layout_below="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/custom_font"
+            android:gravity="center"
+            android:text=""
+            android:background="@drawable/levelpanel"
+            android:padding="10dp"
+            android:textColor="@color/colorOrange"
+            android:textSize="@dimen/info_text_size"
+            android:visibility="invisible"></TextView>
+
+        <LinearLayout
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:id="@+id/header_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="0dp"
+            android:layout_marginBottom="10dp">
+            <com.dinuscxj.progressbar.CircleProgressBar
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/timeTextView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="60dp"
+                app:progress_text_size="0sp"
+                app:progress_background_color="@color/black_overlay"
+                app:progress_shader="radial"
+                app:progress_start_color="@color/colorOrange"
+                app:progress_stroke_width="1dp"
+                app:progress_style="solid"
+                android:visibility="invisible"
+                app:progress_text_color="@color/colorWhite"
+                />
+            <Button
+                android:id="@+id/multiFuncButton"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/playButtonText" />
+
+            <TextView
+                android:id="@+id/levelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="BrainOut"
+                android:padding="5dp"
+                android:background="@drawable/levelpanel"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+                <LinearLayout
+                    android:layout_below="@+id/header_view"
+                    android:id="@+id/textpad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"
+                    android:orientation="vertical" />
+
+
+        <LinearLayout
+            android:id="@+id/pointsTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/background"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:layout_margin="@dimen/menu_margin"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/closeInfo"
+                android:layout_marginLeft="@dimen/menu_margin"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_size"
+                android:text="" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/resultTableTitle"
+                style="@style/menuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                 />
+
+
+            <View
+                android:id="@+id/resultModeDivider"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorOrange" />
+            <ListView
+                android:id="@+id/pointsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></ListView>
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_margin="@dimen/menu_margin"
+        >
+        <EditText
+            android:id="@+id/wordEdit"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorOrange"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:hint="@string/wordTextHint"
+            android:padding="10dp"
+            android:layout_weight="3"
+            android:background="@drawable/edittext_default"
+            android:textSize="@dimen/text_size"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:id="@+id/addWordButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/buttonStyle"
+            android:text="@string/addButtonText" />
+    </LinearLayout>
+
+</RelativeLayout>

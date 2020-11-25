@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">Memorize</string>
+    <string name="app_name">Brain Out</string>
+    <string name="playButtonText">PLAY</string>
+    <string name="addButtonText">ADD</string>
+    <string name="gameMenuText">GAME MENU</string>
+    <string name="levelMenuText">LEVELS</string>
+
+    <string name="playerModeText">PLAYER MODE</string>
+    <string name="quitButtonText">QUIT</string>
+    <string name="settingsButtonText">SETTINGS</string>
+
+    <string name="easyButtonText">EASY</string>
+    <string name="closeButtonText">CLOSE</string>
+    <string name="hardButtonText">HARD</string>
+    <string name="mediumButtonText">MEDIUM</string>
+    <string name="joinButtonText">JOIN</string>
+    <string name="createButtonText">CREATE</string>
+    <string name="startButtonText">START</string>
+
+    <string name="okButtonText">OK</string>
+
+    <string name="nameTextHint">Set player name ...</string>
+    <string name="wordTextHint">Enter the word ...</string>
+    <string name="defaultName">EDIT PLAYER</string>
+
+    <string name="singlePlayerButtonText">Single Player</string>
+    <string name="multiPlayerButtonText">Multi Player</string>
+    <string name="title_activity_splashscreen">SplashScreenActivity</string>
+    <string name="title_activity_player_mode_screen">FullscreenActivity</string>
+    <string name="title_activity_settings_screen">SettingsScreenActivity</string>
+
+    <string name="settingsTitle">Settings</string>
+    <string name="playerInfo">Player Info</string>
+    <string name="nameTitle">PLAYER NAME</string>
+    <string name="vibrationDescOn">Turn Vibration On</string>
+    <string name="soundDescOn">Turn Sounds On</string>
+    <string name="vibrationDescOff">Turn Vibration Off</string>
+    <string name="soundDescOff">Turn Sounds Off</string>
+    <string name="memorizeText">Memorize</string>
+    <string name="rearrangeText">Rearrange it</string>
+
+    <string name="title_activity_player_list">PlayerListActivity</string>
+
+
+
 </resources>

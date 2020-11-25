@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <integer name="splash_delay_millisecs">2000</integer>
+    <integer name="textview_padding">10</integer>
+    <integer name="start_delay">3</integer>
+
+    <integer name="splash_animation_millisecs">1000</integer>
+
+
+</resources>

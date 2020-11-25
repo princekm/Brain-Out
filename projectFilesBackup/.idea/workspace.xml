@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b760f3d-31bf-4e62-9261-71e27e11cc3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/orbitron.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/DeviceListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/GameScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/LevelScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/MenuScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/ParticleEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/PlayerModeScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/SettingsScreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/SplashscreenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/connection/WiFiDirectBroadcastReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/ApplicationQuitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/ConnectionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/DragListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/GameStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/GroupCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/GroupInfoListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/GroupListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/NameSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/PeerDiscoverer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/PeerListMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/ScreenOpener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/SoundSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/TouchListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/listeners/VibrationSetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/managers/AnimationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/managers/SettingsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/managers/SoundManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/managers/VibrationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/threads/GameStarterThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/threads/GuessTimerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/threads/MemoryTimerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/threads/SplashTimerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/threads/TimerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/right_to_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_down.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/wobble.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/button_pressed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/edittext_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/green_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/info_text_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/info_timeview_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/red_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/shape_drop_target.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/text_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/title_gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/white_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/star_pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/star_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/custom_font.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/orbitron.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_game_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_level_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_player_list_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_player_mode_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/level_click.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/point.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/thorn_hit.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/numbers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/root_preferences.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/mindgame/Memorize/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mindgame/Memorize/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mindgame/activities/PlayerListScreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/mindgame/Memorize/ExampleUnitTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="10.1_WXGA_Tablet_API_R" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1icpox5Hh1ZcshUqhzYCiYlGSbg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="PLEGAR1772008455" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-18T13:55:59.909Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+      <recent name="$PROJECT_DIR$/app/src/main/assets/fonts" />
+    </key>
+    <key name="android.template.-1992424084">
+      <recent name="com.mindgame.BrainOut" />
+      <recent name="com.mindgame.Memorize" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/anim" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="drawable-v24.* and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="drawable-v24.*" />
+        <pattern testClass="drawable.*" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b760f3d-31bf-4e62-9261-71e27e11cc3a" name="Default Changelist" comment="" />
+      <created>1602216913530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602216913530</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="389" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1603023326659">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="389" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1152.720@0.0.1152.720" timestamp="1603023326659" />
+    <state x="173" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602961964519">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="173" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1152.720@0.0.1152.720" timestamp="1602961964519" />
+    <state x="319" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602354576096">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="319" y="204" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1152.720@0.0.1152.720" timestamp="1602354576096" />
+    <state x="164" y="122" key="AndroidCreateResourceDirectoryDialog" timestamp="1602396545220">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="164" y="122" key="AndroidCreateResourceDirectoryDialog/0.0.1152.720@0.0.1152.720" timestamp="1602396545220" />
+    <state x="164" y="122" key="AndroidCreateResourceFileDialog" timestamp="1602396631397">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="164" y="122" key="AndroidCreateResourceFileDialog/0.0.1152.720@0.0.1152.720" timestamp="1602396631397" />
+    <state width="1110" height="239" key="GridCell.Tab.0.bottom" timestamp="1603029677049">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.bottom/0.0.1152.720@0.0.1152.720" timestamp="1603029677049" />
+    <state width="1110" height="149" key="GridCell.Tab.0.bottom/0.23.1152.632@0.23.1152.632" timestamp="1602614399009" />
+    <state width="1110" height="239" key="GridCell.Tab.0.center" timestamp="1603029677047">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.center/0.0.1152.720@0.0.1152.720" timestamp="1603029677047" />
+    <state width="1110" height="149" key="GridCell.Tab.0.center/0.23.1152.632@0.23.1152.632" timestamp="1602614399008" />
+    <state width="1110" height="239" key="GridCell.Tab.0.left" timestamp="1603029677046">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.left/0.0.1152.720@0.0.1152.720" timestamp="1603029677046" />
+    <state width="1110" height="149" key="GridCell.Tab.0.left/0.23.1152.632@0.23.1152.632" timestamp="1602614399007" />
+    <state width="1110" height="239" key="GridCell.Tab.0.right" timestamp="1603029677048">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="239" key="GridCell.Tab.0.right/0.0.1152.720@0.0.1152.720" timestamp="1603029677048" />
+    <state width="1110" height="149" key="GridCell.Tab.0.right/0.23.1152.632@0.23.1152.632" timestamp="1602614399008" />
+    <state x="353" y="145" key="chooseDestDirectoryDialog" timestamp="1602240070630">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="353" y="145" key="chooseDestDirectoryDialog/0.0.1152.720@0.0.1152.720" timestamp="1602240070630" />
+    <state x="100" y="100" width="952" height="520" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1602235572207">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="100" y="100" width="952" height="520" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1152.720@0.0.1152.720" timestamp="1602235572207" />
+    <state x="241" y="44" width="670" height="676" key="search.everywhere.popup" timestamp="1602994819408">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state x="241" y="44" width="670" height="676" key="search.everywhere.popup/0.0.1152.720@0.0.1152.720" timestamp="1602994819408" />
+  </component>
+</project>
